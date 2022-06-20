@@ -28,9 +28,9 @@ Our Client just want a POC (Proof of concept) so your job is to create a suggest
   - Read about json-server here: [json-server](https://www.npmjs.com/package/json-server)
 
 ## When done
-  - Either give a link to your forked repo or send a zip file to: fredrik.lunde@frontedgeit.se
+  - Either give a link to your forked repo or send a zip file to: [daniel.persson@frontedgeit.se](mailto:daniel.persson@frontedgeit.se) and [mikael.sampson@frontedgeit.se](mikael.sampson@frontedgeit.se)
   - We will then review your pull request
-  - If there are any questions, feel free to contact fredrik.lunde@frontedgeit.se
+  - If there are any questions, feel free to contact [daniel.persson@frontedgeit.se](mailto:daniel.persson@frontedgeit.se) or [mikael.sampson@frontedgeit.se](mikael.sampson@frontedgeit.se)
 
 ## Advice
   - Don't touch the backupdb.json, it is only supposed to be used with the refresh command seen down below once you start deleting sports/dishes.
