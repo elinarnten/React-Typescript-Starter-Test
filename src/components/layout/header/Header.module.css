@@ -34,3 +34,7 @@
 .headerContainer h3 {
   color: #fff;
 }
+
+.headerContainer button {
+  justify-content: space-between;
+}

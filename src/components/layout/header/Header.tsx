@@ -1,10 +1,18 @@
-import React from 'react'
-import styles from './Header.module.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (
     <div className={styles.headerContainer}>
-      <h3>Your navigation between sports and dish screen goes here</h3>
+      <div>
+        <Link to={"/sports"}>
+          <ul className={styles.linkStyle}>Sports</ul>
+        </Link>
+        <Link to={"/dishes"}>
+          <ul className={styles.linkStyle}>Dishes</ul>
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
