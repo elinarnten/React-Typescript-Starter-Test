@@ -1,18 +1,16 @@
-import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-
 import "./App.css";
-import Dishes from "./components/Dishes";
 import { Header } from "./components/layout/header/Header";
-import Sports from "./components/Sports";
+import { DishScreen } from "./screens/dish-screen/DishScreen";
+import { SportsScreen } from "./screens/sports-screen/SportsScreen";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Route path="/sports" component={Sports} />
-        <Route path="/dishes" component={Dishes} />
+        <Route path="/sports" component={SportsScreen} />
+        <Route path="/dishes" component={DishScreen} />
       </BrowserRouter>
     </div>
   );
