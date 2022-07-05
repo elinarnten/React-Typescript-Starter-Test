@@ -21,8 +21,10 @@ export const SportsScreen: React.FC<Props> = (props) => {
           <div className={styles.container}>
             <div className={styles.card}>
               <img className={styles.img} src={sports.url} alt={sports.title} />
-              <h2 className={styles.cardTitle}>{sports.title}</h2>
-              <p className={styles.description}>{sports.description}</p>
+              <div>
+                <h2 className={styles.cardTitle}>{sports.title}</h2>
+                <p className={styles.description}>{sports.description}</p>
+              </div>
             </div>
           </div>
         );

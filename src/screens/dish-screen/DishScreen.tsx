@@ -10,16 +10,19 @@ interface Props {
 
 export const DishScreen: React.FC<Props> = () => {
   return (
-    <div className={Styles.DishScreenContainer}>
-      <h3>Hello from dishscreen</h3>
+    <div>
+      <h1 className={Styles.title}>Hello from dishscreen</h1>
 
       {dishes.map((dishes) => {
         return (
           <div className={Styles.container}>
             <div className={Styles.card}>
               <img className={Styles.img} src={dishes.url} alt={dishes.title} />
-              <h2 className={Styles.cardTitle}>{dishes.title}</h2>
-              <p className={Styles.description}>{dishes.description}</p>
+
+              <div className={Styles.textContainer}>
+                <h2>{dishes.title}</h2>
+                <p>{dishes.description}</p>
+              </div>
             </div>
           </div>
         );
